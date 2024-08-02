@@ -1,3 +1,7 @@
+/* 
+    -webkit-text-stroke-color: var(--coral); and
+    --goldenrod: #f0b428; changed yellow to purple : #6536d3 
+*/
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -2055,7 +2059,8 @@ html {
   
   :root {
     --white: #fafafa;
-    --goldenrod: #f0b428;
+    /* --goldenrod: #f0b428; */
+    --goldenrod: #6536d3;
     --coral: #ff7332;
   }
   
@@ -3272,7 +3277,8 @@ html {
   }
   
   .text-color-yellow {
-    color: #f0b428;
+    /* color: #f0b428; */
+    color: #6536d3;
   }
   
   .text-color-yellow.margin-left {
@@ -6069,7 +6075,8 @@ html {
   .number-text {
     color: #fafafa00;
     -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: var(--coral);
+    -webkit-text-stroke-color: #6536d3;
+    /* -webkit-text-stroke-color: var(--coral); */
     font-size: 6rem;
     font-weight: 800;
     line-height: 1;
