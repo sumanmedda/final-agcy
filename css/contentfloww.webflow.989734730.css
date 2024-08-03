@@ -7,6 +7,38 @@ html {
     -ms-text-size-adjust: 100%;
     font-family: sans-serif;
   }
+
+  .whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* background-color: #000; */
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-icon:hover {
+    background-color: #25D366;
+}
+
+.whatsapp-icon svg:hover {
+  fill: #fff;
+}
+
+.whatsapp-icon svg {
+    width: 35px;
+    height: 35px;
+    /* fill: #fff; */
+    fill: #000;
+    z-index: 1000;
+}
   
   body {
     margin: 0;
