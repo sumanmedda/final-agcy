@@ -3719,7 +3719,7 @@ html {
   }
   
   .shade-mask {
-    background-image: linear-gradient(#000, #fff0);
+    background-image: linear-gradient(#00000086, #fff0);
     position: absolute;
     inset: 0%;
   }
