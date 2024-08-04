@@ -7632,6 +7632,11 @@ html {
     .headingh5-onlp {
       font-size: 1.75rem;
     }
+
+    .h3-custom{
+      text-align: left;
+      
+    }
   
     .pre-heading {
       font-size: 2.5rem;
