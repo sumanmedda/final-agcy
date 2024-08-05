@@ -9598,6 +9598,15 @@ html {
   }
   
   @media screen and (max-width: 991px) {
+    .button-filled.is-black.hide-tablet.white-border {
+      display: flex;
+    }
+
+    .h3-custom {
+      text-align: left;
+      padding-right: 21px !important;
+      padding-left: 21px !important;
+    }
     #w-node-_3d55c421-3673-2a69-03fc-6f3a0575ead1-d24468e6, #w-node-_08dbd0d9-c334-c89b-7693-8fb24e2b11b3-d24468e6, #w-node-_3d55c421-3673-2a69-03fc-6f3a0575ead1-814f508a, #w-node-_08dbd0d9-c334-c89b-7693-8fb24e2b11b3-814f508a, #w-node-_3d55c421-3673-2a69-03fc-6f3a0575ead1-128a1c17, #w-node-_08dbd0d9-c334-c89b-7693-8fb24e2b11b3-128a1c17 {
       grid-column: span 3 / span 3;
     }
